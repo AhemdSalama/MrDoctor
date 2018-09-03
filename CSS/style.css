@@ -50,6 +50,9 @@ body{
 }
 .header .nav ul li a:hover{
     color:#0BA2DB;
+    border-bottom: 2px solid #0BA2DB;
+    cursor: pointer;
+    padding-bottom:8px;
 }
 
 .header .slider {
@@ -115,12 +118,17 @@ body{
     color:#a2a5aa;
 }
 .about-us .text ul {
-    width :36%;
-    margin:2%;
+    width :40%;
+    font-size:12px;
     float: left;
+    list-style: none;
 }
 .about-us .text ul li{
     padding : 4px 0;
+}
+.about-us .text ul li i{
+    margin-right:5px;
+    color:#0BA2DB;
 }
 
 /**** End About Us ****/
@@ -130,6 +138,16 @@ body{
 .services{
     overflow: hidden;
     background-color:#F6F6F6;
+}
+
+.services i,.services span ,.services p {
+    display: block;
+    margin:20px 0; 
+}
+.services i{
+    margin: 50px 0;
+    font-size: 3em;
+    color:#0BA2DB;
 }
 .services p,
 .pricing p,
@@ -172,7 +190,7 @@ body{
 }
 .pricing .products div {
     width:30%;
-    margin:3px;
+    margin:7px;
     border:1px solid #ddd;
     float :left;
     border-radius: 10px;
@@ -225,7 +243,23 @@ body{
 .contact-us form button{
     margin: 40px auto;
 }
-
+.contact-us ul{
+    margin:  120px auto 30px 0;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+.contact-us ul li{
+    display: inline-block;
+    margin: 0 auto;
+    padding:0 30px;
+    
+}
+.contact-us ul li i {color:#0BA2DB;    font-size: 36px;}
+.contact-us ul li i:hover{
+    color:#444;
+    cursor: pointer;
+}
 .footer{
     background-color:#E6E6E6;
     padding:40px;
